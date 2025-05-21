@@ -37,7 +37,7 @@ st.markdown(
 )
 
 # IMPORT DATA SALES
-data = pd.read_csv(r"https://github.com/husnafanyn/PengantarPython_Dashboard/blob/main/Sales_Superstore.csv")
+data = pd.read_csv("Sales_Superstore.csv")
 #st.dataframe(data)
 
 # MEMBUAT HEADER PADA DASHBOARD
